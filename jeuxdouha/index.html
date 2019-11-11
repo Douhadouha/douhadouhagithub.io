@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href= "main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capitales</title>
+</head>
+
+<body>
+
+    
+<header id="page1" class="page active">
+<div id = "backgroundImage"></div>
+    <h1>Le Quizz des Capitales du Monde</h1>
+    <button id="start-button">PLAY</button>
+</header>
+
+
+<section id = "page2" class="page">
+<div class = "fond"></div>
+
+<div id = "compteur">
+
+    <div class = "compteurQuestions">
+    <img src="./file-27_icon-icons.com_62081.svg" alt="question">
+    <a>Question n°<span>0</span>/5</a>
+    </div>
+
+    <div class = "compteurPoints">
+    <img src = "star.svg" alt = "star">
+    <span>0</span> points
+    </div>
+
+    <div class = "compteurTime">
+    <img src = "./clock_icon-icons.com_54407.svg" alt = "montre">
+    <a>30</a> sec
+    </div>
+</div>
+
+<div class = "questionBlock">
+
+    <h3>Quelle est la capitale <span></span> ?</h3>
+
+<div class = "choices">
+
+    <ul>
+
+            <li>
+                <label><input type="radio" name= "reponse" value=""> <span></span></label>
+            </li>
+
+            <li>
+                <label><input type="radio" name= "reponse" value=""> <span></span></label>
+            </li>
+    
+            <li>
+                <label><input type="radio" name= "reponse" value=""> <span></span></label>
+            </li>
+            <li>
+                <label><input type="radio" name= "reponse" value=""> <span></span></label>
+            </li>
+                    
+       
+
+    </ul>
+
+<button type = "submit" id = "valid-button">VALIDER</button>
+</div>
+
+</div>
+
+<div id = "correctImage" class = "imageTrue">
+    <img src = "./icons8-approbation-64.png" alt="true">
+</div>
+
+<div id = "wrongImage" class = "imageFalse">
+    <img src = "./icons8-fermer-la-fenêtre-64.png" alt="false">
+</div>
+
+</section>
+
+
+<footer id = "page3" class="page3">
+
+    <div class="resultatsTittle"> RESULTATS </div>
+
+<div class = "results">
+    <a>Tu as obtenu <span>0</span> points</a>
+    <img src ="./icons8-médaille-d'or-olympique-48.png" alt = "médaille">
+    <img src="./icons8-trophée-48.png" alt="trophée">
+</div>
+
+
+
+
+    <a class="restart" href="javascript:reset()"> Nouvelle partie</a>
+    </footer>
+
+
+  
+    <script src="index.js"></script>
+
+</body>
+</html>

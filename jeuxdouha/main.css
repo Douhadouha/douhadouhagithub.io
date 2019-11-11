@@ -1,0 +1,182 @@
+*, :before, :after {box-sizing:border-box;}
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Raleway', sans-serif;
+}
+
+
+h1 {
+    text-align: center; 
+    padding-top: 80px ;
+    font-size: 4.5em;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #41A08C;
+}
+
+.page {
+    display:none;
+}
+.page3 {
+    display:none;
+}
+.page.active {
+    display:block;
+}
+
+header {
+    background-image: url('travel-landmarks-on-world-map-vector-12041444.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;   
+}
+
+#start-button{
+    background-color: white;
+    color: #41A08C;
+    border-color: transparent;
+    font-size: 3em;
+    padding: 17px;
+    border-radius: 1em;
+    font-weight:bold;
+    padding:.4em 1em;
+    margin-left: 43%;
+    margin-top: 380px; 
+}
+
+#page2 {
+    background-color:#DBF2F3;
+    margin:0;
+    padding-bottom: 120px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em
+}
+
+#compteur {
+    display: flex;
+    justify-content: space-between;
+    background-color: #41A08C;
+    padding: 30px;
+}
+
+.compteurQuestions {
+    font-size: 2.5em;
+    color: white
+}
+.compteurQuestions img {
+    width: 1.6em;
+    height: 1.6em;
+}
+.compteurPoints {
+    font-size: 2.5em;
+    color: white;
+}
+.compteurTime {
+    font-size: 2.5em;
+    color: white; 
+}
+.compteurPoints img {
+    width: 1.6em; 
+    height: 1.6em;
+}
+.compteurTime img {
+    width: 1.6em; 
+    height: 1.6em;
+}
+
+.questionBlock {
+    margin-top: 2em;
+    margin-right: 15em;
+    margin-left: 15em;
+    border-radius: 1em;
+    background-color:  #41A08C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+h3 {
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    font-size: 2em;
+    list-style-type: none;
+    padding-left: 300px;
+    line-height: 2.5em;
+}
+
+input {
+    width: 2em;
+}
+
+#valid-button { 
+    font-size: 2.5em;
+    border-radius: 1em;
+    font-weight:bold;
+    padding: 17px;
+    color: #F46B71; 
+    border-color: transparent;
+    margin-left: 40%
+}
+
+.imageTrue {
+    display: none;
+}
+
+.imageFalse {
+    display: none; 
+}
+
+.active {
+    display: block;
+}
+
+#page3 {
+    background-color:#DBF2F3;
+    margin:0;
+    padding-top:150px; 
+    padding-bottom: 150px;  
+}
+.imageWin {
+    display: none;
+}
+#imageWinner {
+    width: 7em; 
+    height: 10em; 
+}
+
+.resultatsTittle{
+    color:#41A08C;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+.results {
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #41A08C;
+    color: white; 
+    padding: 80px;
+    margin: 3em; 
+    border-radius: 1em;
+}
+.results img {
+    width: 1.6em; 
+    height: 1.6em;
+}
+
+.restart{
+    text-decoration: none, bold;
+    color:  #F46B71;
+    font-size: 2.5em; 
+    margin-left: 40%;
+    font-weight: bold;
+}
